@@ -1,0 +1,25 @@
+2020-09-22 19:52:58,007 INFO request url is https://cq.lianjia.com/chengjiao/c3611057649739/
+2020-09-22 19:52:59,639 ERROR 'WebElement' object is not iterable
+Traceback (most recent call last):
+  File "D:/Work/SourceCode/owner-source/spider-for-lianjia/src/main/spider_for_lianjia.py", line 61, in main
+    for sub_content in list_content:
+TypeError: 'WebElement' object is not iterable
+2020-09-22 19:54:07,388 INFO request url is https://cq.lianjia.com/chengjiao/c3611057649739/
+2020-09-22 19:54:09,012 ERROR 'WebElement' object is not iterable
+Traceback (most recent call last):
+  File "D:/Work/SourceCode/owner-source/spider-for-lianjia/src/main/spider_for_lianjia.py", line 61, in main
+    for sub_content in list_content:
+TypeError: 'WebElement' object is not iterable
+2020-09-22 19:56:44,039 INFO request url is https://cq.lianjia.com/chengjiao/c3611057649739/
+2020-09-22 20:01:05,519 INFO request url is https://cq.lianjia.com/chengjiao/c3611057649739/
+2020-09-22 20:01:57,006 INFO request url is https://cq.lianjia.com/chengjiao/c3611057649739/
+2020-09-22 20:02:47,081 INFO request url is https://cq.lianjia.com/chengjiao/c3611057649739/
+2020-09-22 20:09:28,249 INFO request url is https://cq.lianjia.com/chengjiao/c3611057649739/
+2020-09-22 20:10:26,965 INFO request url is https://cq.lianjia.com/chengjiao/c3611057649739/
+2020-09-22 20:12:02,499 INFO request url is https://cq.lianjia.com/chengjiao/c3611057649739/
+2020-09-22 20:13:14,983 INFO request url is https://cq.lianjia.com/chengjiao/c3611057649739/
+2020-09-22 20:16:59,807 INFO request url is https://cq.lianjia.com/chengjiao/c3611057649739/
+2020-09-22 20:18:02,651 INFO request url is https://cq.lianjia.com/chengjiao/c3611057649739/
+2020-09-22 20:18:23,992 INFO request url is https://cq.lianjia.com/chengjiao/c3611057649739/
+2020-09-22 20:19:17,531 INFO request url is https://cq.lianjia.com/chengjiao/c3611057649739/
+2020-09-22 20:24:46,920 INFO request url is https://cq.lianjia.com/chengjiao/c3611057649739/

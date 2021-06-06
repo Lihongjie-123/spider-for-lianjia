@@ -1,0 +1,63 @@
+2020-09-22 20:41:26,762 INFO request url is https://cq.lianjia.com/chengjiao/c3611057649739/
+2020-09-22 20:41:51,409 INFO request url is https://cq.lianjia.com/chengjiao/c3611057649739/
+2020-09-22 20:41:51,470 ERROR Message: invalid session id
+Traceback (most recent call last):
+  File "D:/Work/SourceCode/owner-source/spider-for-lianjia/src/main/spider_for_lianjia.py", line 67, in main
+    driver.get(sub_url)
+  File "D:\Work\SourceCode\owner-source\spider-for-lianjia\devenv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "D:\Work\SourceCode\owner-source\spider-for-lianjia\devenv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\Work\SourceCode\owner-source\spider-for-lianjia\devenv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+
+2020-09-22 20:41:51,511 ERROR Message: invalid session id
+Traceback (most recent call last):
+  File "D:/Work/SourceCode/owner-source/spider-for-lianjia/src/main/spider_for_lianjia.py", line 111, in main
+    driver.close()
+  File "D:\Work\SourceCode\owner-source\spider-for-lianjia\devenv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 688, in close
+    self.execute(Command.CLOSE)
+  File "D:\Work\SourceCode\owner-source\spider-for-lianjia\devenv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\Work\SourceCode\owner-source\spider-for-lianjia\devenv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+
+2020-09-23 19:46:03,156 INFO request url is https://cq.lianjia.com/chengjiao/rs保利香槟花园/
+2020-09-23 19:47:39,526 INFO request url is https://cq.lianjia.com/chengjiao/pg2rs保利香槟花园/
+2020-09-23 19:48:35,834 INFO request url is https://cq.lianjia.com/chengjiao/pg3rs保利香槟花园/
+2020-09-23 19:49:19,639 INFO request url is https://cq.lianjia.com/chengjiao/pg4rs保利香槟花园/
+2020-09-23 19:49:54,334 INFO request url is https://cq.lianjia.com/chengjiao/pg5rs保利香槟花园/
+2020-09-23 19:51:18,441 INFO request url is https://cq.lianjia.com/chengjiao/c369075663057306/
+2020-09-23 19:52:37,051 INFO request url is https://cq.lianjia.com/chengjiao/pg2c369075663057306/
+2020-09-23 19:53:10,620 INFO request url is https://cq.lianjia.com/chengjiao/pg3c369075663057306/
+2020-09-23 19:53:43,328 INFO request url is https://cq.lianjia.com/chengjiao/pg4c369075663057306/
+2020-09-23 19:54:54,121 INFO request url is https://cq.lianjia.com/chengjiao/rs保利高尔夫华庭/
+2020-09-23 19:55:43,610 INFO request url is https://cq.lianjia.com/chengjiao/pg2rs保利高尔夫华庭/
+2020-09-23 19:56:19,360 INFO request url is https://cq.lianjia.com/chengjiao/pg3rs保利高尔夫华庭/
+2020-09-23 19:56:55,191 INFO request url is https://cq.lianjia.com/chengjiao/pg4rs保利高尔夫华庭/
+2020-09-23 19:57:53,150 INFO request url is https://cq.lianjia.com/chengjiao/rs保利观塘/
+2020-09-23 19:58:30,012 INFO request url is https://cq.lianjia.com/chengjiao/pg2rs保利观塘/
+2020-09-23 19:58:49,018 INFO request url is https://cq.lianjia.com/chengjiao/pg3rs保利观塘/
+2020-09-23 19:59:08,582 INFO request url is https://cq.lianjia.com/chengjiao/pg4rs保利观塘/
+2020-09-23 19:59:27,837 INFO request url is https://cq.lianjia.com/chengjiao/pg5rs保利观塘/
+2020-09-27 18:53:27,832 INFO request url is https://cq.lianjia.com/chengjiao/rs财信渝中城/
+2020-09-27 18:54:31,805 INFO request url is https://cq.lianjia.com/chengjiao/pg2rs财信渝中城/
+2020-09-27 18:55:03,530 INFO request url is https://cq.lianjia.com/chengjiao/pg3rs财信渝中城/
+2020-09-27 18:56:19,295 INFO request url is https://cq.lianjia.com/chengjiao/pg4rs财信渝中城/
+2020-09-27 18:57:23,835 INFO request url is https://cq.lianjia.com/chengjiao/rs重庆天地雍江御庭/
+2020-09-27 18:58:00,173 INFO request url is https://cq.lianjia.com/chengjiao/pg2rs重庆天地雍江御庭/
+2020-09-27 18:58:28,290 INFO request url is https://cq.lianjia.com/chengjiao/pg3rs重庆天地雍江御庭/
+2020-09-27 18:58:52,418 INFO request url is https://cq.lianjia.com/chengjiao/pg4rs重庆天地雍江御庭/
+2020-09-27 19:00:27,306 INFO request url is https://cq.lianjia.com/chengjiao/pg5rs重庆天地雍江御庭/
+2020-09-27 19:02:14,668 INFO request url is https://cq.lianjia.com/chengjiao/rs重庆天地雍江悦庭/
+2020-09-27 19:04:16,668 INFO request url is https://cq.lianjia.com/chengjiao/pg2rs重庆天地雍江悦庭/
+2020-09-27 19:05:10,432 INFO request url is https://cq.lianjia.com/chengjiao/pg3rs重庆天地雍江悦庭/
+2020-09-27 19:05:49,046 INFO request url is https://cq.lianjia.com/chengjiao/pg4rs重庆天地雍江悦庭/
+2020-09-27 19:06:39,165 INFO request url is https://cq.lianjia.com/chengjiao/rs万科锦程/
+2020-09-27 19:11:41,931 INFO request url is https://cq.lianjia.com/chengjiao/pg7rs康德国会山/
+2020-09-27 19:12:39,962 INFO request url is https://cq.lianjia.com/chengjiao/pg7de1c3611060996490rs康德国会山/
+2020-09-27 19:14:00,108 INFO request url is https://cq.lianjia.com/chengjiao/pg8de1c3611060996490rs康德国会山/
+2020-09-27 19:15:23,197 INFO request url is https://cq.lianjia.com/chengjiao/pg7de1c3611060996490rs康德国会山/
+2020-09-27 19:17:16,159 INFO request url is https://cq.lianjia.com/chengjiao/pg8de1c3611060996490rs康德国会山/
